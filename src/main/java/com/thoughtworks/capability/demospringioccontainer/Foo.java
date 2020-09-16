@@ -23,6 +23,10 @@ public class Foo {
         return "Foo";
     }
 
+    @PostConstruct
+    public void init() {
+        bar.setBar(this);
+    }
 
 
 }

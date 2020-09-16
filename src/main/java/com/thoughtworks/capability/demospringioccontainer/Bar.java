@@ -8,9 +8,6 @@ public class Bar {
 
     private Foo foo;
 
-    public Bar(Foo foo) {
-        this.foo = foo;
-    }
 
 
     public void hi() {
@@ -21,5 +18,7 @@ public class Bar {
         return "Bar";
     }
 
-
+    public void setBar(Foo foo) {
+        this.foo = foo;
+    }
 }
