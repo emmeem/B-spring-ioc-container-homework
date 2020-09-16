@@ -12,7 +12,6 @@ public class Bar {
         this.foo = foo;
     }
 
-
     public void hi() {
         System.out.println("Hi, " + foo.name());
     }
